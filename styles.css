@@ -25,6 +25,12 @@ body {
     gap: 10px;
 }
 
+#logo-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
 #logo {
   width: 100px;
   height: auto; /* to maintain the aspect ratio */
