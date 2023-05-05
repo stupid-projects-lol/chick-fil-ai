@@ -9,10 +9,13 @@
 <body>
     <div class="container">
         <h1>Chik-Fil-AI</h1>
-        <p>Type your message and get a response from our AI:</p>
-        <input type="text" id="user-input" placeholder="Type your message...">
-        <button onclick="getResponse()">Submit</button>
-        <p id="ai-response"></p>
+        <div class="chat-box">
+            <div class="messages" id="messages"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+                <button onclick="getResponse()">Submit</button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
