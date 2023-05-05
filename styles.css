@@ -18,6 +18,18 @@ body {
     max-width: 600px;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    max-width: 60px;
+    height: auto;
+}
+
 .chat-box {
     background-color: #f8f8f8;
     border-radius: 5px;
