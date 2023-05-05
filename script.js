@@ -27,7 +27,7 @@ function initChat() {
     const messages = document.getElementById("messages");
     const aiInitialMessage = document.createElement("div");
     aiInitialMessage.classList.add("message");
-    aiInitialMessage.textContent = "Hello! Welcome to Chik-Fil-AI. How can I help you today?";
+    aiInitialMessage.textContent = "Hello! Welcome to Chick-Fil-AI. How can I help you today?";
     messages.appendChild(aiInitialMessage);
 }
 
