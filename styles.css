@@ -25,10 +25,12 @@ body {
     gap: 10px;
 }
 
-.logo {
-    max-width: 60px;
-    height: auto;
+#logo {
+  width: 100px;
+  height: auto; /* to maintain the aspect ratio */
+  margin-right: 10px; /* to add some spacing between the logo and the heading */
 }
+
 
 .chat-box {
     background-color: #f8f8f8;
