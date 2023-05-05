@@ -4,7 +4,6 @@ function handleKeyPress(event) {
     }
 }
 
-
 function getResponse() {
     const userInput = document.getElementById("user-input");
     const messages = document.getElementById("messages");
@@ -23,3 +22,13 @@ function getResponse() {
 
     messages.scrollTop = messages.scrollHeight; // Scroll to the bottom
 }
+
+function initChat() {
+    const messages = document.getElementById("messages");
+    const aiInitialMessage = document.createElement("div");
+    aiInitialMessage.classList.add("message");
+    aiInitialMessage.textContent = "Hello! Welcome to Chik-Fil-AI. How can I help you today?";
+    messages.appendChild(aiInitialMessage);
+}
+
+initChat();
