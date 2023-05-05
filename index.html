@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chik-Fil-AI</title>
+    <title>Chick-Fil-AI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Chik-Fil-AI</h1>
+        <h1>Chick-Fil-AI</h1>
         <div class="chat-box">
             <div class="messages" id="messages"></div>
             <div class="input-area">
-                <input type="text" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+                <input type="text" id="user-input" placeholder="Type your message..." onkeydown="handleKeyPress(event)">
                 <button onclick="getResponse()">Submit</button>
             </div>
         </div>
